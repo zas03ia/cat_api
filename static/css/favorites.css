@@ -1,0 +1,70 @@
+.favourite {
+    border: 1px solid #ccc;
+    text-align: center;
+    border: transparent;
+}
+
+.favourites-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2px 5px; 
+    overflow-y: scroll;
+    height: 450px;
+    padding: 10px;
+    margin-bottom: 10px;;
+}
+
+.favourites-container.grid-view .favourite {
+    width: 32%;
+    margin: 0px;
+    
+}
+
+.favourites-container.linear-view .favourite {
+    width: 100%;
+    box-sizing: border-box;
+}
+.favourites-container.linear-view .favourite img{
+    aspect-ratio: 5/3;
+    object-fit: cover;
+}
+
+
+
+.favourite img {
+    aspect-ratio: 1 / 1;
+    width: 100%; 
+    object-fit: cover;
+}
+
+.view-toggle {
+    color: black;
+    text-align: left;
+    padding: 10px;
+}
+
+.view-toggle button {
+    border: transparent;
+    background-color: white;
+    padding: 0px;
+    margin-right: 10px;
+}
+.view-toggle i {
+    font-size: x-large;
+    box-shadow: none;
+}
+
+.view-toggle button {
+    border: transparent;
+    background-color: white;
+    cursor: pointer;
+    padding: 0px;
+    margin-right: 10px;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.view-toggle button.active {
+    color: rgb(248, 131, 96);
+}

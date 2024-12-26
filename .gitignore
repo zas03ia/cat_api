@@ -1,0 +1,54 @@
+# Go binary files
+/bin/
+/build/
+/out/
+
+# Beego specific
+/app.conf
+
+# Go vendor directories
+/vendor/
+
+# IDE-specific files (VSCode, JetBrains, etc.)
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Go module files
+go.sum
+go.mod
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# Test files
+*.test
+
+# Coverage files
+coverage.out
+
+# .env files (for sensitive environment variables)
+.env
+
+# Generated Swagger files
+/swagger/
+
+# Go coverage report
+*.cov
+
+# Other temporary or generated files
+*.gz
+*.tar
+*.zip
+*.bak
+*.swp
+
+# Exclude any compiled assets, logs, and other auto-generated files

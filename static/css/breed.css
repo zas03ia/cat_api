@@ -1,0 +1,79 @@
+.dropdown-container {
+    margin: 20px 0;
+    
+}
+.options {
+    padding: 10px;
+    font-size: 18px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.slideshow-container {
+    max-width: 600px;
+    margin: 20px auto;
+    position: relative;
+}
+.slide {
+    display: block;
+}
+.slide img {
+    width: auto;
+    height: 350px;
+    max-width: 100%;
+    object-fit: contain;
+}
+.breed_info {
+    text-align: left;
+}
+
+.breed_info .title {
+    color:black;
+    font-weight: bold;
+}
+
+.breed_info .title span {
+    color:rgb(58, 57, 57);
+}
+
+.breed_info .title em {
+    color:rgb(105, 105, 105);
+    font-weight: normal;
+}
+
+
+.breed_info .description {
+    color:rgb(112, 111, 111);
+    font-size: 16px;
+}
+.breed_info .wiki {
+    color: rgb(232, 92, 38);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.dots-container {
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 10px 0;
+}
+
+.dot {
+    height: 6px;
+    width: 6px;
+    margin: 0 5px;
+    background-color: #aaa9a9;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s ease, width 0.3s ease, height 0.3s ease;
+    cursor: pointer;
+}
+
+.changeable2 .active {
+    background-color: #717171;
+    height: 8px;
+    width: 8px;
+}
+
