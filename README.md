@@ -92,9 +92,6 @@ The project has the following folder structure:
 - **Description**: Allows users to add an image to their favourites.
 - **Parameters**: `image_id` (ID of the image)
 
-### 4. `/favourites`
-- **Method**: `GET`
-- **Description**: Fetches all favourite images.
 
 ## Testing
 
